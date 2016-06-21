@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		840C71821D19291C0002A44C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C71811D19291C0002A44C /* main.m */; };
+		840C71851D19291C0002A44C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C71841D19291C0002A44C /* AppDelegate.m */; };
+		840C71881D19291C0002A44C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C71871D19291C0002A44C /* ViewController.m */; };
+		840C718B1D19291C0002A44C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840C71891D19291C0002A44C /* Main.storyboard */; };
+		840C718D1D19291C0002A44C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 840C718C1D19291C0002A44C /* Assets.xcassets */; };
+		840C71901D19291C0002A44C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 840C718E1D19291C0002A44C /* LaunchScreen.storyboard */; };
+		840C719B1D19291C0002A44C /* EmailTextField_DemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C719A1D19291C0002A44C /* EmailTextField_DemoTests.m */; };
+		840C71A61D19291C0002A44C /* EmailTextField_DemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C71A51D19291C0002A44C /* EmailTextField_DemoUITests.m */; };
+		840C71B51D19294A0002A44C /* EmailTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C71B41D19294A0002A44C /* EmailTextField.m */; };
+		840C71B81D1929B50002A44C /* PromptTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 840C71B71D1929B50002A44C /* PromptTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		840C71971D19291C0002A44C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840C71751D19291C0002A44C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840C717C1D19291C0002A44C;
+			remoteInfo = EmailTextField_Demo;
+		};
+		840C71A21D19291C0002A44C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 840C71751D19291C0002A44C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 840C717C1D19291C0002A44C;
+			remoteInfo = EmailTextField_Demo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		840C717D1D19291C0002A44C /* EmailTextField_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EmailTextField_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		840C71811D19291C0002A44C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		840C71831D19291C0002A44C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		840C71841D19291C0002A44C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		840C71861D19291C0002A44C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		840C71871D19291C0002A44C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		840C718A1D19291C0002A44C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		840C718C1D19291C0002A44C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		840C718F1D19291C0002A44C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		840C71911D19291C0002A44C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840C71961D19291C0002A44C /* EmailTextField_DemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmailTextField_DemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		840C719A1D19291C0002A44C /* EmailTextField_DemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailTextField_DemoTests.m; sourceTree = "<group>"; };
+		840C719C1D19291C0002A44C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840C71A11D19291C0002A44C /* EmailTextField_DemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmailTextField_DemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		840C71A51D19291C0002A44C /* EmailTextField_DemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EmailTextField_DemoUITests.m; sourceTree = "<group>"; };
+		840C71A71D19291C0002A44C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840C71B31D19294A0002A44C /* EmailTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmailTextField.h; sourceTree = "<group>"; };
+		840C71B41D19294A0002A44C /* EmailTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmailTextField.m; sourceTree = "<group>"; };
+		840C71B61D1929B50002A44C /* PromptTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PromptTableViewCell.h; sourceTree = "<group>"; };
+		840C71B71D1929B50002A44C /* PromptTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PromptTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		840C717A1D19291C0002A44C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840C71931D19291C0002A44C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840C719E1D19291C0002A44C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		840C71741D19291C0002A44C = {
+			isa = PBXGroup;
+			children = (
+				840C717F1D19291C0002A44C /* EmailTextField_Demo */,
+				840C71991D19291C0002A44C /* EmailTextField_DemoTests */,
+				840C71A41D19291C0002A44C /* EmailTextField_DemoUITests */,
+				840C717E1D19291C0002A44C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		840C717E1D19291C0002A44C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				840C717D1D19291C0002A44C /* EmailTextField_Demo.app */,
+				840C71961D19291C0002A44C /* EmailTextField_DemoTests.xctest */,
+				840C71A11D19291C0002A44C /* EmailTextField_DemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		840C717F1D19291C0002A44C /* EmailTextField_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				840C71831D19291C0002A44C /* AppDelegate.h */,
+				840C71841D19291C0002A44C /* AppDelegate.m */,
+				840C71861D19291C0002A44C /* ViewController.h */,
+				840C71871D19291C0002A44C /* ViewController.m */,
+				840C71B31D19294A0002A44C /* EmailTextField.h */,
+				840C71B41D19294A0002A44C /* EmailTextField.m */,
+				840C71B61D1929B50002A44C /* PromptTableViewCell.h */,
+				840C71B71D1929B50002A44C /* PromptTableViewCell.m */,
+				840C71891D19291C0002A44C /* Main.storyboard */,
+				840C718C1D19291C0002A44C /* Assets.xcassets */,
+				840C718E1D19291C0002A44C /* LaunchScreen.storyboard */,
+				840C71911D19291C0002A44C /* Info.plist */,
+				840C71801D19291C0002A44C /* Supporting Files */,
+			);
+			path = EmailTextField_Demo;
+			sourceTree = "<group>";
+		};
+		840C71801D19291C0002A44C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				840C71811D19291C0002A44C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		840C71991D19291C0002A44C /* EmailTextField_DemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				840C719A1D19291C0002A44C /* EmailTextField_DemoTests.m */,
+				840C719C1D19291C0002A44C /* Info.plist */,
+			);
+			path = EmailTextField_DemoTests;
+			sourceTree = "<group>";
+		};
+		840C71A41D19291C0002A44C /* EmailTextField_DemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				840C71A51D19291C0002A44C /* EmailTextField_DemoUITests.m */,
+				840C71A71D19291C0002A44C /* Info.plist */,
+			);
+			path = EmailTextField_DemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		840C717C1D19291C0002A44C /* EmailTextField_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840C71AA1D19291C0002A44C /* Build configuration list for PBXNativeTarget "EmailTextField_Demo" */;
+			buildPhases = (
+				840C71791D19291C0002A44C /* Sources */,
+				840C717A1D19291C0002A44C /* Frameworks */,
+				840C717B1D19291C0002A44C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmailTextField_Demo;
+			productName = EmailTextField_Demo;
+			productReference = 840C717D1D19291C0002A44C /* EmailTextField_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		840C71951D19291C0002A44C /* EmailTextField_DemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840C71AD1D19291C0002A44C /* Build configuration list for PBXNativeTarget "EmailTextField_DemoTests" */;
+			buildPhases = (
+				840C71921D19291C0002A44C /* Sources */,
+				840C71931D19291C0002A44C /* Frameworks */,
+				840C71941D19291C0002A44C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840C71981D19291C0002A44C /* PBXTargetDependency */,
+			);
+			name = EmailTextField_DemoTests;
+			productName = EmailTextField_DemoTests;
+			productReference = 840C71961D19291C0002A44C /* EmailTextField_DemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		840C71A01D19291C0002A44C /* EmailTextField_DemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 840C71B01D19291C0002A44C /* Build configuration list for PBXNativeTarget "EmailTextField_DemoUITests" */;
+			buildPhases = (
+				840C719D1D19291C0002A44C /* Sources */,
+				840C719E1D19291C0002A44C /* Frameworks */,
+				840C719F1D19291C0002A44C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				840C71A31D19291C0002A44C /* PBXTargetDependency */,
+			);
+			name = EmailTextField_DemoUITests;
+			productName = EmailTextField_DemoUITests;
+			productReference = 840C71A11D19291C0002A44C /* EmailTextField_DemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		840C71751D19291C0002A44C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = AlezJi;
+				TargetAttributes = {
+					840C717C1D19291C0002A44C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7UD65F8GWP;
+					};
+					840C71951D19291C0002A44C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7UD65F8GWP;
+						TestTargetID = 840C717C1D19291C0002A44C;
+					};
+					840C71A01D19291C0002A44C = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 7UD65F8GWP;
+						TestTargetID = 840C717C1D19291C0002A44C;
+					};
+				};
+			};
+			buildConfigurationList = 840C71781D19291C0002A44C /* Build configuration list for PBXProject "EmailTextField_Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 840C71741D19291C0002A44C;
+			productRefGroup = 840C717E1D19291C0002A44C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				840C717C1D19291C0002A44C /* EmailTextField_Demo */,
+				840C71951D19291C0002A44C /* EmailTextField_DemoTests */,
+				840C71A01D19291C0002A44C /* EmailTextField_DemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		840C717B1D19291C0002A44C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840C71901D19291C0002A44C /* LaunchScreen.storyboard in Resources */,
+				840C718D1D19291C0002A44C /* Assets.xcassets in Resources */,
+				840C718B1D19291C0002A44C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840C71941D19291C0002A44C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840C719F1D19291C0002A44C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		840C71791D19291C0002A44C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840C71B51D19294A0002A44C /* EmailTextField.m in Sources */,
+				840C71881D19291C0002A44C /* ViewController.m in Sources */,
+				840C71851D19291C0002A44C /* AppDelegate.m in Sources */,
+				840C71821D19291C0002A44C /* main.m in Sources */,
+				840C71B81D1929B50002A44C /* PromptTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840C71921D19291C0002A44C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840C719B1D19291C0002A44C /* EmailTextField_DemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		840C719D1D19291C0002A44C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				840C71A61D19291C0002A44C /* EmailTextField_DemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		840C71981D19291C0002A44C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840C717C1D19291C0002A44C /* EmailTextField_Demo */;
+			targetProxy = 840C71971D19291C0002A44C /* PBXContainerItemProxy */;
+		};
+		840C71A31D19291C0002A44C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 840C717C1D19291C0002A44C /* EmailTextField_Demo */;
+			targetProxy = 840C71A21D19291C0002A44C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		840C71891D19291C0002A44C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840C718A1D19291C0002A44C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		840C718E1D19291C0002A44C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				840C718F1D19291C0002A44C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		840C71A81D19291C0002A44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		840C71A91D19291C0002A44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		840C71AB1D19291C0002A44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EmailTextField_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.EmailTextField-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		840C71AC1D19291C0002A44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = EmailTextField_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.EmailTextField-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		840C71AE1D19291C0002A44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EmailTextField_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.EmailTextField-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmailTextField_Demo.app/EmailTextField_Demo";
+			};
+			name = Debug;
+		};
+		840C71AF1D19291C0002A44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = EmailTextField_DemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.EmailTextField-DemoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EmailTextField_Demo.app/EmailTextField_Demo";
+			};
+			name = Release;
+		};
+		840C71B11D19291C0002A44C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EmailTextField_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.EmailTextField-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EmailTextField_Demo;
+			};
+			name = Debug;
+		};
+		840C71B21D19291C0002A44C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = EmailTextField_DemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "AlezJI.EmailTextField-DemoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = EmailTextField_Demo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		840C71781D19291C0002A44C /* Build configuration list for PBXProject "EmailTextField_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840C71A81D19291C0002A44C /* Debug */,
+				840C71A91D19291C0002A44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		840C71AA1D19291C0002A44C /* Build configuration list for PBXNativeTarget "EmailTextField_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840C71AB1D19291C0002A44C /* Debug */,
+				840C71AC1D19291C0002A44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		840C71AD1D19291C0002A44C /* Build configuration list for PBXNativeTarget "EmailTextField_DemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840C71AE1D19291C0002A44C /* Debug */,
+				840C71AF1D19291C0002A44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		840C71B01D19291C0002A44C /* Build configuration list for PBXNativeTarget "EmailTextField_DemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				840C71B11D19291C0002A44C /* Debug */,
+				840C71B21D19291C0002A44C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 840C71751D19291C0002A44C /* Project object */;
+}
